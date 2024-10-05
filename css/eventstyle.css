@@ -4,8 +4,8 @@
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(0, 0%, 0%); /* Change this to black */
-  
+ --first-color: hsl(0, 0%, 0%); /* Pure black */
+  --first-color-light: hsl(0, 0%, 5%); /* Very dark gray for light variant */
   --first-color-alt: hsl(32, 75%, 50%);
   --second-color: hsl(195, 75%, 52%);
   --dark-color: hsl(212, 40%, 12%);
