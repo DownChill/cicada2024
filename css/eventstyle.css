@@ -5,8 +5,8 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
  --first-color: hsl(0, 0%, 0%); /* Pure black */
-  --first-color-light: hsl(0, 0%, 5%); /* Very dark gray for light variant */
-  --first-color-alt: hsl(32, 75%, 50%);
+  --first-color-light: hsl(0, 0%, 0%); /* Very dark gray for light variant */
+  --first-color-alt: hsl(0, 0%, 0%);
   --second-color: hsl(195, 75%, 52%);
   --dark-color: hsl(212, 40%, 12%);
   --white-color: hsl(212, 4%, 95%);
@@ -155,10 +155,25 @@
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
+	.newcard__container {
+    max-width: 320px;
+  }
+	
   .newcard__data {
     padding: 1rem;
   }
 }
+
+@media screen and (max-width: 375px) {
+	.newcard__container {
+    max-width: 375px;
+  }
+	
+  .newcard__data {
+    padding: 1rem;
+  }
+}
+
 
 /* For medium devices */
 @media screen and (min-width: 768px) {
